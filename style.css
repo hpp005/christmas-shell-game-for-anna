@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Poppins&display=swap');
+
+
+body {
+margin: 0;
+height: 100vh;
+background: linear-gradient(to bottom, #0f3d2e, #06281c);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Poppins', sans-serif;
+color: #fff;
+}
+
+
+.container {
+background: rgba(255,255,255,0.1);
+padding: 40px;
+border-radius: 25px;
+text-align: center;
+width: 1000px;
+}
+
+
+h1 {
+font-family: 'Mountains of Christmas', cursive;
+font-size: 3rem;
+}
+
+
+.stage {
+position: relative;
+width: 900px;
+height: 300px;
+margin: 60px auto;
+}
+
+
+.gift {
+position: absolute;
+width: 120px;
+height: 120px;
+background: linear-gradient(135deg, #b11226, #e63946);
+border-radius: 22px;
+font-size: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: transform 0.8s ease-in-out;
+cursor: pointer;
+}
+
+
+.gift.correct {
+outline: 5px solid gold;
+}
+
+
+#message {
+min-height: 30px;
+font-size: 1.2rem;
+}
